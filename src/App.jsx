@@ -34,7 +34,7 @@ import CONTACT from './componet/CONTACT/CONTACT';
 </div>   },
 
 
-]},
+],},
 { path:'/' , element: <Layout />, children:[
 
 
@@ -57,7 +57,8 @@ import CONTACT from './componet/CONTACT/CONTACT';
 </div>   },
 
 
-]}
+],
+}
 ] )
 
 
