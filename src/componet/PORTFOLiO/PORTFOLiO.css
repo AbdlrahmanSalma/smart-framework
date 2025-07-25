@@ -1,0 +1,66 @@
+.icolayer{
+    position: absolute;
+    background-color: #1abc9ce6;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: all 0.6s opacity;
+    border-radius: 5px;
+}
+.Protfor h2{
+
+  color:  #2C3E50 !important;
+
+}
+.portofolioimg:hover .icolayer{
+     opacity: 1;
+     color: #fff;
+}
+.icopls{
+    font-size: 80px;
+}
+.portofolioimg img{
+     width: 100%;
+}
+.portfolio-icon{
+  position: relative;
+  width: fit-content;
+  margin-inline:auto ;
+}
+.portfolio-icon::after{   
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 5px;
+    background-color: #2C3E50;
+    top: 25%;
+    left: 200%;
+}   
+.portfolio-icon::before{
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 5px;
+    top: 25%;
+    right: 200%;
+    background-color: #2C3E50;
+}
+.clcer{
+
+background-color: rgba(0, 0, 0, 0.5);
+
+z-index: 10;
+}
+.big-img{
+
+
+  padding-top: 50px;
+
+  max-width: 60%;
+  max-height: 70%;
+}

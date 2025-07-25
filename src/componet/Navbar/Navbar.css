@@ -1,0 +1,16 @@
+.user{
+
+    background-color: #2C3E50;
+}
+.start
+{ 
+    color: white;
+    text-decoration: none;
+}
+.page{
+    color: white !important; 
+}
+.active{
+    background-color: #1abc9c !important;
+    border-radius: 8px;
+}

@@ -1,0 +1,39 @@
+.about{
+
+     background-color: #1abc9c ;
+     color: white;  
+     padding: 12%;
+}
+.about-star{
+
+  position: relative;
+  width: fit-content;
+  margin-inline:auto ;
+
+}
+.about-star::after{
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 5px;
+    background-color: white;
+    top: 50%;
+    left: 200%;
+}
+.about-star::before{
+
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 5px;
+    top: 40%;
+    right: 200%;
+    background-color: white;
+}
+.pergraph{
+   
+  
+   padding: 10px;
+    
+      
+}

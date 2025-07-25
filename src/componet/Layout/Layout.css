@@ -1,0 +1,40 @@
+.local
+{
+    background-color: #2C3E50 ;
+    color: white ;
+    padding: 100px;
+    text-align: center;
+}
+.linked.name{
+
+   background-color: blue;
+
+}
+.free h1{
+
+    font-size: 30px;
+}
+.free p{
+    font-size: 15px;
+}
+footer{
+    background-color: #1a252f;
+    padding: 15px;
+    color: white;
+    text-align: center;
+}
+.fac-icon{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    text-align: center ;
+    border: #fff solid 1px;
+    border-radius: 50%;
+    margin: 5px;
+
+ 
+
+}

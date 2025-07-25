@@ -1,0 +1,36 @@
+.home
+{
+    background-color: #1abc9c;
+    color: white;
+    text-align: center;
+}
+.home h1{
+    font-size: 45px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    font-weight: bold;
+}
+.start-icon{
+  position: relative;
+  width: fit-content;
+  margin-inline:auto ;
+}
+.start-icon::after{
+
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 5px;
+    background-color: white;
+    top: 50%;
+    left: 200%;
+}   
+.start-icon::before{
+    content: '';
+    position: absolute;
+    width: 80px;
+    height: 5px;
+    top: 40%;
+    right: 200%;
+    background-color: white;
+}
