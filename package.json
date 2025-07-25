@@ -2,8 +2,9 @@
   "name": "text",
   "private": true,
   "version": "0.0.0",
+   "homepage": "https://github.com/AbdlrahmanSalma/smart-framework",
   "type": "module",
-  "homepage": "https://github.com/AbdlrahmanSalma/smart-framework",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",

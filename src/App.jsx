@@ -12,7 +12,7 @@ import CONTACT from './componet/CONTACT/CONTACT';
 
 
 
-{ path:'startFramework' , element: <Layout />, children:[
+{ path:'smart-framework' , element: <Layout />, children:[
 
 
 
