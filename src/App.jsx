@@ -1,7 +1,6 @@
-import './App.css'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import About from './componet/About/About'
 import Home from './componet/Home/Home'
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Layout from './componet/Layout/Layout';
 import PORTFOLiO from './componet/PORTFOLiO/PORTFOLiO';
 import CONTACT from './componet/CONTACT/CONTACT';
@@ -12,7 +11,7 @@ import CONTACT from './componet/CONTACT/CONTACT';
 
 
 
-{ path:'smart-framework' , element: <Layout />, children:[
+{ path:'framework' , element: <Layout />, children:[
 
 
 
