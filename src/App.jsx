@@ -11,7 +11,7 @@ import CONTACT from './componet/CONTACT/CONTACT';
 
 
 
-{ path:'framework' , element: <Layout />, children:[
+{ path:'smart-framework' , element: <Layout />, children:[
 
 
 
